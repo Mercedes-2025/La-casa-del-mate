@@ -1,0 +1,150 @@
+*{margin:0;
+border: 0;
+padding: 0;
+}
+
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#E7C84C;
+    position: relative;
+    font-size: 5em;
+    float: left;
+    left: 4em;
+    z-index: 1000;
+
+}
+.he{
+    width: 100%;
+    height: 450px;
+}
+
+header h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#E7C84C ;
+    position: relative;
+    font-size: 36px;
+    z-index: 100;
+    overflow-x: hidden;
+}
+
+.imagenfondo img{
+    width: 100%; /* largo imagen */
+    height: 450px; /* ancho imagen*/
+    top: -10em;
+    position: relative;
+    
+    overflow-x: hidden;
+
+}
+.logoheader img{
+    width: 12%;
+    height: auto;
+    position: relative;
+    float: right;
+    right: 1em;
+    top: -25em;
+    overflow-x: hidden;
+
+
+}
+.contacto h2{
+   left: 75em;
+    position: relative;    
+    bottom: 13em;
+    font-size: 1em;
+    display:grid;
+    overflow-x: hidden;
+}
+
+.publicidad{
+    width: 20%;
+    height: 10%;
+    float: right;
+    position: relative;
+}
+
+.publi{
+    width: 100%;
+    margin-left: 55%;
+    overflow-x: hidden;
+    height: 800px;
+    top: -20em;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.imgEm img{
+    width: 30%;
+    
+}
+
+.imgEm h4{
+    left: 30px;
+}
+
+.imgEm{
+    transform: translate(-5px);
+
+}
+
+.compra{
+    font-family: monospace;
+    font-style: bold;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.imgempa img{
+    width: 30%;
+  
+}
+.imgempa{
+   float: left;
+    position: relative;
+    left: 16em;
+    top: -28em;
+   
+}
+.imgpizza img{
+    width: 30%;
+}
+.imgpizza{
+    float: left;
+    position: relative;
+    left: 40em;
+    top: -20%
+}
+
+.imgpizza2 img{
+    width: 30%;
+}
+.imgpizza2{
+    float: left;
+    position: relative;
+    left: 16em;
+    top: -80%
+}
+
+
+.imgpizza img{
+    width: 30%;
+}
+.imgpizza2 img{
+    width: 30%;
+}
+
+body{
+    background-color:#F0D759 ;
+}
