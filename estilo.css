@@ -1,4 +1,7 @@
 *{margin:0;
+overflow: hidden;
+overflow: auto;
+overflow: visible;
 border: 0;
 padding: 0;
 }
