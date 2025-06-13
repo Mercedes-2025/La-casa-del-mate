@@ -147,7 +147,7 @@ footer {
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
 
   header h1 {
     font-size: 5em;
@@ -164,12 +164,16 @@ footer {
 
     h4{
     font-size: 2.5em;
+    color:#ccc;
+    float: left;
+    position: relative;
  }
 
     p{
     font-size: 3em;
     object-position: center;
     left: 5em;
+    color:#ccc;
  }
 
   .imagenfondo img {
@@ -178,13 +182,13 @@ footer {
     width: 300%;
   }
 
-  .publicidad {
+  /*.publicidad {
     width: 100%;
     margin-left: 3%;
     flex-direction: column;
     align-items: center;
     top: 150em;
-  }
+  }*/
 
   .galeria {
     grid-template-columns: 1fr;
@@ -193,11 +197,10 @@ footer {
   .img1 {
     height: auto;
     width: 150%;
-
-
+    border-radius: 30px;
   }
   .mate1{
-    left: 13em;
+    left: 13.5em;
     position: relative;
     top: 18em;
   }
@@ -224,7 +227,7 @@ footer {
   .mate6{
     left: 13em;
     position: relative;
-    top: 18em;
+    top: 20em;
   }
  
   .compra {
@@ -233,9 +236,14 @@ footer {
 
   }
 
+footer{
+    width: 100%;
+}
   .footer-content {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    bottom: 0%;
   }
 
   .footer-section {
@@ -244,7 +252,10 @@ footer {
   }
 
   .linea {
-    border-top: 1.5em solid hsl(90, 54%, 24%);
-    transform: translate(0, -1.5em);
+    border-top: 2em solid hsl(90, 54%, 24%);
+    top: 10.5em;
+    position: relative;
+    width: 100%;
+    display: flex;
   }
 }
