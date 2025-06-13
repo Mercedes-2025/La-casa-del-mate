@@ -47,16 +47,6 @@ header h2 {
   z-index: -100;
 }
 
-.logoheader img {
-  width: 12%;
-  height: auto;
-  position: relative;
-  float: right;
-  right: 1em;
-  top: -25em;
-  overflow-x: hidden;
-}
-
 .publicidad {
   width: 50%;
   height: auto;
@@ -156,12 +146,14 @@ footer {
   color: #888;
 }
 
-/* ---------------- RESPONSIVE PARA CELULARES ------------------ */
 
 @media (max-width: 430px) {
 
   header h1 {
-    font-size: 2.5em;
+    font-size: 5em;
+    top: 2em;
+    position: relative;
+    object-fit: over;
   }
 
   header h2 {
@@ -170,22 +162,28 @@ footer {
     padding: 0 10px;
   }
 
-  .logoheader img {
-    width: 25%;
-    top: -10em;
-    right: 0.5em;
-  }
+    h4{
+    font-size: 2.5em;
+ }
+
+    p{
+    font-size: 3em;
+    object-position: center;
+    left: 5em;
+ }
 
   .imagenfondo img {
-    height: 250px;
-    top: -5em;
+    height: 600px;
+    top: -12em;
+    width: 300%;
   }
 
   .publicidad {
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 3%;
     flex-direction: column;
     align-items: center;
+    top: 150em;
   }
 
   .galeria {
@@ -194,10 +192,45 @@ footer {
 
   .img1 {
     height: auto;
-  }
+    width: 150%;
 
+
+  }
+  .mate1{
+    left: 13em;
+    position: relative;
+    top: 18em;
+  }
+  .mate2{
+    left: 13em;
+    position: relative;
+    top: 18em;
+  }
+  .mate3{
+    left: 13em;
+    position: relative;
+    top: 20em;
+  }
+  .mate4{
+    left: 13em;
+    position: relative;
+    top: 18em;
+  }
+  .mate5{
+    left: 13em;
+    position: relative;
+    top: 18em;
+  }
+  .mate6{
+    left: 13em;
+    position: relative;
+    top: 18em;
+  }
+ 
   .compra {
-    font-size: 0.9em;
+    font-size: 3em;
+    object-position: center;
+
   }
 
   .footer-content {
