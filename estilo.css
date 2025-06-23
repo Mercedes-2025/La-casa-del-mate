@@ -94,12 +94,14 @@ footer {
   bottom: 0;
 }
 
-.footer {
+footer {
+  top: 20em;
   background-color: #1e1e1e;
   color: #e0e0e0;
-  padding: 30px 20px 10px 20px;
-  font-size: 0.9rem;
-  margin-top: 40px;
+  width: 130vh;
+  height: 100vh;
+  position: relative;
+  z-index: -10;
 }
 
 .footer-content {
@@ -217,17 +219,17 @@ footer {
   .mate4{
     left: 13em;
     position: relative;
-    top: 18em;
+    top: 20em;
   }
   .mate5{
     left: 13em;
     position: relative;
-    top: 18em;
+    top: 20em;
   }
   .mate6{
     left: 13em;
     position: relative;
-    top: 20em;
+    top: 21em;
   }
  
   .compra {
@@ -235,27 +237,29 @@ footer {
     object-position: center;
 
   }
-
-footer{
-    width: 100%;
-}
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    bottom: 0%;
-  }
-
-  .footer-section {
-    width: 100%;
-    text-align: center;
-  }
-
   .linea {
     border-top: 2em solid hsl(90, 54%, 24%);
     top: 10.5em;
     position: relative;
     width: 100%;
     display: flex;
+    margin-top: 20px;
+  }
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
