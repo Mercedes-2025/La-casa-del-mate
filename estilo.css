@@ -94,14 +94,13 @@ footer {
   bottom: 0;
 }
 
-footer {
+.footer {
   top: 20em;
   background-color: #1e1e1e;
   color: #e0e0e0;
-  width: 130vh;
-  height: 100vh;
-  position: relative;
-  z-index: -10;
+  padding:30px, 20px, 10px, 20px;
+  font-size: 0.9rem;
+  margin-top: 40px;
 }
 
 .footer-content {
@@ -169,6 +168,7 @@ footer {
     color:#ccc;
     float: left;
     position: relative;
+    white-space: nowrap;
  }
 
     p{
@@ -180,7 +180,7 @@ footer {
 
   .imagenfondo img {
     height: 600px;
-    top: -12em;
+    top: -17em;
     width: 300%;
   }
 
@@ -194,6 +194,11 @@ footer {
 
   .galeria {
     grid-template-columns: 1fr;
+
+  }
+  .galeria img{
+    width: 80%;
+
   }
 
   .img1 {
@@ -247,9 +252,13 @@ footer {
   }
 
 footer{
-    width: 100%;
-    position: relative;
-    bottom: 0;
+  top: 25em;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  width: 130vh;
+  height: 100vh;
+  position: relative;
+  z-index: -10;
 }
   .footer-content {
     flex-direction: column;
@@ -261,5 +270,11 @@ footer{
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+  }
+  .footer-section h3{
+    font-size: 3.5em;
+  }
+  .footer-section p{
+    font-size: 4em;
   }
 }
